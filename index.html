@@ -5,7 +5,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="./styles/normalize.css">
+    <link rel="stylesheet" href="./styles/index.css">
+    <link rel="stylesheet" href="./assets/fonts/Roboto-Bold.ttf">
+    <link rel="stylesheet" href="./assets/fonts/Roboto-Regular.ttf">
     <title>SVG</title>
 </head>
 
@@ -73,15 +76,63 @@
 
     <div class="flat">
         <svg class="plan" viewBox="0 0 600 600">
-            <rect class="bathroom" x="96px" y="37px" class="rect" width="159px" height="124px" fill-opacity="0.2" fill="#1561ee">Санузел</rect>
-            <rect class="kitchen" x="428px" y="248px" class="rect" width="159px" height="124px" fill-opacity="0.2" fill="#66ff00">Кухня</rect>
-            <polyline class="polyline" stroke="#ff2c2c" stroke-linecap="butt" stroke-width="12" stroke-opacity="0" fill="none" points="87,80 89,12 89,29 70,29 296,29 263,29 263,12 263,187 261,170 245,170 280,170"></polyline>
+            <rect class="bathroom" x="96px" y="37px" class="rect" width="159px" height="124px" fill-opacity="0.2"
+                fill="#1561ee">Санузел</rect>
+            <rect class="kitchen" x="428px" y="248px" class="rect" width="159px" height="124px" fill-opacity="0.2"
+                fill="#66ff00">Кухня</rect>
+            <polyline class="polyline" stroke="#ff2c2c" stroke-linecap="butt" stroke-width="12" stroke-opacity="0"
+                fill="none" points="87,80 89,12 89,29 70,29 296,29 263,29 263,12 263,187 261,170 245,170 280,170">
+            </polyline>
         </svg>
 
-        <img class="img-plan" src="./../img/flat-plan.jpg" alt="flat">
+        <img class="img-plan" src="./assets/img/flat-plan.jpg" alt="flat">
 
     </div>
 
+
+    <figure>
+        <div class="figure-content">
+            <svg width="800px" height="800px" viewBox="0 0 42 42" class="donut" aria-labelledby="beers-title beers-desc"
+                role="img">
+                <circle class="donut-hole" cx="21" cy="21" r="15.91549430918954" fill="#fff" role="presentation">
+                </circle>
+                <circle class="donut-ring" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="#d2d3d4"
+                    stroke-width="3" role="presentation"></circle>
+                <circle class="donut-segment" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="#ce4b99"
+                    stroke-width="3" stroke-dasharray="40 60" stroke-dashoffset="25"
+                    aria-labelledby="donut-segment-1-title donut-segment-1-desc">
+                </circle>
+                <circle class="donut-segment" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="#b1c94e"
+                    stroke-width="3" stroke-dasharray="20 80" stroke-dashoffset="85">
+                </circle>
+                <circle class="donut-segment" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="#377bbc"
+                    stroke-width="3" stroke-dasharray="30 70" stroke-dashoffset="65">
+
+                </circle>
+                <!--  desc -->
+                <g class="chart-text">
+                    <text x="50%" y="50%" class="chart-number">
+                        Makup
+                    </text>
+                    <text x="50%" y="50%" class="chart-label">
+                        I know
+                    </text>
+                </g>
+            </svg>
+        </div>
+        <figcaption class="figure-key">
+            <p class="sr-only">There are my knowledge about web technologies. My knowledge of HTML
+                is 40%, of CSS is 20% and of SVG is 30%.</p>
+            <ul class="figure-key-list" aria-hidden="true" role="presentation">
+                <li>
+                    <span class="circle shape-pink"></span>HTML</li>
+                <li>
+                    <span class="circle shape-green"></span>CSS</li>
+                <li>
+                    <span class="circle shape-blue"></span>SVG</li>
+            </ul>
+        </figcaption>
+    </figure>
 
 
 </body>
