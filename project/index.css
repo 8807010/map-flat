@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* map */
+
+.part {
+    stroke:white;
+    stroke-width:76.36;
+    stroke-miterlimit:22.9256;
+    fill: #a5a3a3;
+}
+
+#hrodnenskaia-voblasts:hover {
+    fill: #edff4b;
+}
+
+#vitsebskaia-voblasts:hover {
+    fill: #7338ff;
+}
+
+#mahiliouskaia-voblasts:hover {
+    fill: #ff16cd;
+}
+
+#homelskaia-voblasts:hover {
+    fill: #ff4949;
+}
+
+#minskaia-voblasts:hover {
+    fill: #54ff20;
+}
+
+#brestskaia-voblasts:hover {
+    fill: #ffa41b;
+}
+
+#horad-minsk:hover {
+    fill: #02ffff;
+}
+
+/* flat
+
+.flat {
+    position: relative;
+    min-height: 800px;
+    width: 100vw;
+    background-color: rgb(200, 200, 255);
+}
+
+
+.plan {
+    width: 700px;
+    height: 700px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 2px solid rgb(255, 0, 0);
+    z-index: 1;
+}
+
+.rect {
+    transition: fill-opacity 500ms ease;
+
+}
+
+.rect:hover {
+    fill-opacity: 0.5;
+}
+
+
+.img-plan {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 1000px;
+}
+ */
