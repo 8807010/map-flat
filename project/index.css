@@ -48,7 +48,7 @@ body {
     fill: #02ffff;
 }
 
-/* flat
+/* flat */
 
 .flat {
     position: relative;
@@ -69,16 +69,6 @@ body {
     z-index: 1;
 }
 
-.rect {
-    transition: fill-opacity 500ms ease;
-
-}
-
-.rect:hover {
-    fill-opacity: 0.5;
-}
-
-
 .img-plan {
     position: absolute;
     top: 50%;
@@ -86,4 +76,33 @@ body {
     transform: translate(-50%,-50%);
     width: 1000px;
 }
- */
+
+.bathroom {
+    transition: fill-opacity 500ms ease;
+
+}
+
+.bathroom:hover {
+    fill-opacity: 0.5;
+    fill: #1561ee;
+}
+
+.kitchen {
+    transition: fill-opacity 500ms ease;
+
+}
+
+.kitchen:hover {
+    fill-opacity: 0.5;
+    fill: #66ff00;
+}
+
+.polyline {
+    transition: stroke-opacity 500ms ease;
+
+}
+
+.polyline:hover {
+    stroke-opacity: 1;
+    stroke: #ff2c2c;
+}
