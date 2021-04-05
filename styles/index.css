@@ -136,7 +136,7 @@ body {
     box-sizing: border-box;
 }
 
-.chart-text {
+.circle_text {
     /*font: 16px/1.4em "Montserrat", Arial, sans-serif;*/
     fill: #000;
     -moz-transform: translateY(0.25em);
@@ -145,7 +145,7 @@ body {
     transform: translateY(0.25em);
 }
 
-.chart-number {
+.text_top {
     font-size: 0.5em;
     line-height: 1;
     text-anchor: middle;
@@ -155,7 +155,7 @@ body {
     transform: translateY(-0.25em);
 }
 
-.chart-label {
+.text_bottom {
     font-size: 0.2em;
     text-transform: uppercase;
     text-anchor: middle;
