@@ -94,7 +94,8 @@
         <div class="figure-content">
             <svg width="800px" height="800px" viewBox="0 0 42 42" class="donut" aria-labelledby="beers-title beers-desc"
                 role="img">
-                <circle class="donut-hole" cx="21" cy="21" r="15.91549430918954" fill="#fff" role="presentation">
+                <g id="circle">
+                    <circle class="donut-hole" cx="21" cy="21" r="15.91549430918954" fill="#fff" role="presentation">
                 </circle>
                 <circle class="donut-ring" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="#d2d3d4"
                     stroke-width="3" role="presentation"></circle>
@@ -118,6 +119,8 @@
                         I know
                     </text>
                 </g>
+                
+                </g>
             </svg>
         </div>
         <figcaption class="figure-key">
@@ -133,7 +136,11 @@
             </ul>
         </figcaption>
     </figure>
+    
 
+    <use x="100" y="100" xlink:href="#circle" height="150" width="150" viewBox="0 0 300 300">
+    <use xlink:href="#circle" x="83" y="35"/>
+    </use>
 
 </body>
 
